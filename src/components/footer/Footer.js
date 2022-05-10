@@ -6,11 +6,11 @@ const Footer = () => {
     <footer className='footer'>
         <div className='footer-info'>
             <h1>Antonio Gutiérrez Villegas</h1>
-            <p>Based in Your City</p>
+            <p>Empecemos a crear</p>
         </div>
         <div className='footer-contact'>
             <h3>Contactemos</h3>
-            <p>Y manos a la obra!</p>
+            <p>Este puede ser el comienzo de algo grande</p>
         </div>
         <div className='footer-sns'>
             <div className='design-by'>

@@ -7,22 +7,25 @@
 }
 .carousel-title{
     color: white;
-    width:40%;
+    width:70%;
     text-align: center;
     font-size: 30px;
     padding: 0 100px 0 100px;
 }
 
 .slide-container{
-    height: 80%;
+    width: 250px;
     border-radius: 40px;
     overflow: hidden;
     position: relative;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
 }
 
 .slide-container img{
-    object-fit: contain;
+    height: 550px;
+  
     transition: all 0.2s ease-in-out
 }
 
@@ -45,6 +48,7 @@
     color:white;
     display: block;
     font-size: 22px;
+    height: 144px;
     padding: 20px 0 20px 10px;
 }
 
