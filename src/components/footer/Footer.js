@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css';
+import pdf from '../../media/CurriculumAntonio.pdf';
 
 const Footer = () => {
   return (
@@ -12,6 +13,11 @@ const Footer = () => {
             <h3>Contactemos</h3>
             <p>Este puede ser el comienzo de algo grande</p>
         </div>
+
+        <div className='footer-download'>
+            <a href={pdf} target="_blank" rel="noopener noreferrer" download>Descarga mi CV</a>
+        </div>
+        
         <div className='footer-sns'>
             <div className='design-by'>
                 Desing By: Antonio Gutiérrez Villegas
